@@ -1,0 +1,17 @@
+{
+  "name": "home",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc; node dist/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.5.0",
+    "fastify": "5.0.0",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.4"
+  }
+}
