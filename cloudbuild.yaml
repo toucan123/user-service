@@ -38,4 +38,4 @@ images: [
    'gcr.io/sixth-syntax-438916-q0/user-service:latest'
   ]
 options:
-  logging: NONE
+  logging: CLOUD_LOGGING_ONLY
