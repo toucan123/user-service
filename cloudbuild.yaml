@@ -14,7 +14,6 @@ steps:
    'gcr.io/sixth-syntax-438916-q0/user-service:latest',
    '.'
   ]
-  dir: 'user-service'
 # Step 3
 - name: 'gcr.io/cloud-builders/kubectl'
   args: ['apply', '-f', 'infra/k8s/']
